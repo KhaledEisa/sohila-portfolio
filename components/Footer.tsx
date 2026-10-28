@@ -45,11 +45,22 @@ export default function Footer() {
           ))}
         </div>
 
-        <address className="mt-10 grid gap-1 text-sm not-italic text-canvas/70 sm:grid-cols-2 sm:gap-6">
+        <address className="mt-10 grid gap-2 text-sm not-italic text-canvas/70 sm:grid-cols-3 sm:gap-6">
           <span>
-            Phone / WhatsApp:{" "}
+            Phone:{" "}
             <a href={`tel:${site.phoneHref}`} className="text-canvas underline decoration-canvas/30 underline-offset-4">
               {site.phone}
+            </a>
+          </span>
+          <span>
+            WhatsApp:{" "}
+            <a
+              href={`https://wa.me/${site.whatsappHref}`}
+              target="_blank"
+              rel="noopener"
+              className="text-canvas underline decoration-canvas/30 underline-offset-4"
+            >
+              {site.whatsapp}
             </a>
           </span>
           <span>{site.location}</span>

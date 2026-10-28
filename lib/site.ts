@@ -7,9 +7,10 @@ export const site = {
   role: "UI/UX Designer & Front-End Developer",
   location: "Doha, Qatar",
   email: "sohilaelnahhas@gmail.com",
-  // ⚠️ CHECK: Qatar numbers have 8 digits after +974. This value has 10 — confirm before launch.
-  phone: "+974 7011870018",
-  phoneHref: "+9747011870018",
+  phone: "+974 7011 8718",
+  phoneHref: "+97470118718",
+  whatsapp: "+20 150 156 5503",
+  whatsappHref: "201501565503",
   linkedin: "https://www.linkedin.com/in/sohilaelnahhas",
   github: "https://github.com/sohilaelnahhas",
   // Optional: add her Figma community profile URL to show a "Figma" link in the footer.

@@ -35,8 +35,8 @@ npm run build    # production build (all pages are prerendered)
 
 ## Before going live — checklist
 
-- [ ] **Phone number** in `lib/site.ts`: `+974 7011870018` has 10 digits after +974, but Qatar numbers have 8. Confirm it.
-- [ ] **Resume**: `public/Sohila-Alnahas-CV.pdf` still shows the Egyptian +20 number. Re-export the CV with the Qatar number and replace the file.
+- [x] Phone numbers set in `lib/site.ts` (Qatar call number + Egyptian WhatsApp).
+- [x] Resume updated with the Qatar number.
 - [ ] **Images**: the files in `public/images/` are low-resolution screenshots. In Figma, export each board at 2× (JPG or WebP) and save it over the same file name.
 - [ ] **Before/After slider**: add a screenshot of the original ICTHub page as `public/images/icthub-before.jpg`, then uncomment `beforeAfter` on the ICTHub project in `data/projects.ts`. A "Redesign spotlight" section appears automatically on the home page and the case-study page.
 - [ ] **Problem statements**: the `problem` lines on Tidy, HomeArt and ICTHub are reasonable framings drafted from the CV. Rewrite them in your own words, with what your research actually found.
