@@ -17,6 +17,6 @@ export const site = {
   figma: "",
   resume: "/Sohila-Alnahas-CV.pdf",
   // Update after the first Vercel deploy (used for canonical URLs, sitemap and JSON-LD).
-  url: "https://sohila-portfolio-nu.vercel.app",
+  url: "https://sohilaalnahas.vercel.app",
   openTo: ["UI/UX Designer", "Product Designer", "Front-End Developer"],
 } as const;
